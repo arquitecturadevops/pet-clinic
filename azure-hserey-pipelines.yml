@@ -1,3 +1,4 @@
+jobs:
 - job: sonar
   workspace:
     clean: all
