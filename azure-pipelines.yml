@@ -45,8 +45,8 @@ jobs:
   - task: SonarCloudPrepare@1
     inputs:
       SonarCloud: 'Sonarcloud'
-      organization: 'devsecops-usach'
-      projectKey: 'DevSecOps-USACH_spring-clinic'
+      organization: 'arquitecturadevops'
+      projectKey: 'arqu1t3cturad3v0ps'
       projectName: 'spring-clinic'
     displayName: 'Preparing Sonarqube Environment'
     
@@ -65,10 +65,6 @@ jobs:
       pollingTimeoutSec: '300'
     displayName: 'Publish Analysis Results'
     
-  #- task: sonarcloud-buildbreaker@2
-  #  inputs:
-  #    SonarCloud: 'Sonarcloud'
-  #    organization: 'devsecops-usach'
 
 - job: sca
   steps:
