@@ -12,7 +12,7 @@ jobs:
       SonarCloud: 'Sonarcloud'
       organization: 'arquitecturadevops'
       scannerMode: 'MSBuild'
-      projectKey: 'arqu1t3cturad3v0ps'
+      projectKey: 'arquitecturadevops'
       projectName: 'spring-clinic'
     displayName: 'Preparing Sonarqube Environment'
     
